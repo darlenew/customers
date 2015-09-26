@@ -1,5 +1,5 @@
 # customers
-Load customer location data from a JSON file.  Using the Vincenty formula for calculating Great Circle Distance, find customers within a certain distance to notify.
+Customer management tool.  Demonstrates loading customer location data from JSON file and calculating Great Circle Distance (Vincenty formula) to find local customers.
 
 # usage
 usage: customers.py [-h] [--file JSONFILE] [--origin ORIGIN] [--within WITHIN]
